@@ -7,7 +7,7 @@
 # TODO Store the result in an online database
 # TODO Push online my game (on armelys, onestensemble)
 
-from nicegui import ui
+from nicegui import app, ui
 import functions
 
 ################################################
@@ -151,9 +151,9 @@ def clear_data_for_new_session() -> None:
     # Reset data stores (human name kept if already set, bot name is constant)
     # Variables to store data modified by user actions
     players_name["human"]: str = ""
-    players_party_choices: dict = {"human": "", "bot": ""}
-    party_score: dict = {"human": 0, "bot": 0}
-    game_scores: dict = {"human": 0, "bot": 0}
+    players_party_choices = {"human": "", "bot": ""}
+    party_score = {"human": 0, "bot": 0}
+    game_scores = {"human": 0, "bot": 0}
 
     # Reset UI element references (they will be recreated or reassigned)
     global human_choice_label, bot_choice_label, party_score_label, final_score_display, end_game_window
@@ -217,6 +217,8 @@ def end_session() -> None:
     with main_layout:
         ui.label("Merci d'avoir joué !")
         ui.label("A bientôt !")
+    # Kill the program in the running console
+    app.shutdown()
 
 
 ################################################

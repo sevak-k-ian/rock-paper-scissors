@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f687c50-dc4a-454f-933c-5207f88f53be" name="Changes" comment="Event handlers correction + start (or end) new session feature">
+    <list default="true" id="4f687c50-dc4a-454f-933c-5207f88f53be" name="Changes" comment="Added comments &amp; doc for every functions used in the gui file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748157984266</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added comments &amp; doc for every functions used in the gui file">
+      <option name="closed" value="true" />
+      <created>1748322122562</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748322122563</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit. Before I drastically reduce functions.py to centralise functions in gui.py" />
     <MESSAGE value="Event handlers correction + start (or end) new session feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Event handlers correction + start (or end) new session feature" />
+    <MESSAGE value="Added comments &amp; doc for every functions used in the gui file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comments &amp; doc for every functions used in the gui file" />
   </component>
 </project>
